@@ -26,7 +26,7 @@ class EdScreenRecorder {
       String? fileOutputFormat = "MPEG_4",
       String? fileExtension = "mp4",
       String? videoEncoder = "H264",
-      int? videoBitrate = 3000000,
+      int? videoBitrate = 67108864,
       int? videoFrame = 30,
       required bool audioEnable}) async {
     var uuid = const Uuid();
