@@ -25,7 +25,7 @@ class EdScreenRecorder {
       bool? addTimeCode = true,
       String? fileOutputFormat = "MPEG_4",
       String? fileExtension = "mp4",
-      String? videoEncoder = "HEVC",
+      String? videoEncoder = "H264",
       int? videoBitrate = 3000000,
       int? videoFrame = 30,
       required bool audioEnable}) async {
